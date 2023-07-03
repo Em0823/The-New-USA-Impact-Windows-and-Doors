@@ -133,6 +133,65 @@ transition: 0.5s;
     }
 }
 
+/*---------about us front page --------*/
+.aboutf {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background: linear-gradient(to bottom, #E6F0FF, hsla(0, 96%, 82%, 0.9));
+  }
+  
+  .aboutf .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .aboutf img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #0c0b0b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0 20px;
+    max-width: 800px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .row1 {
+    margin-bottom: 10%;
+  }
+  
+  .hero-btn1 {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: #eb9b95;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-btn1:hover {
+    background: #f44336;
+  }
+  
+
 /*---------services--------*/
 
 
@@ -552,3 +611,240 @@ color:#f44336;
     box-sizing: border-box;
 
 }
+
+
+.commitment-section {
+    margin-bottom: 30px;
+  }
+  
+  .commitment-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .commitment-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  
+  .commitment-section li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .commitment-section li strong {
+    font-weight: bold;
+  }
+  .commitment-section img {
+    display: block;
+    margin: 20px auto; /* Adjust the margin values as needed */
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    height: auto; /* Maintain the image's aspect ratio */
+  }
+  
+
+  .front-page-content {
+    /* Add a background image */
+    background-image: url("img/10.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px; /* Add padding to create space between the content and background */
+  }
+  
+  .invest-section {
+    background-color: rgba(255, 255, 255, 0.8); /* Set a semi-transparent white background */
+    padding: 30px;
+    margin-top: 30px;
+    display: inline-block; /* Ensure the text box takes the width of its content */
+    text-align: center;
+  }
+  
+  /* Add styles for the invest section text */
+  .invest-section-text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .invest-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .invest-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  
+  .invest-section li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .invest-section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .invest-section .btn {
+    /* Customize the styles of your button */
+    display: inline-block;
+    background-color: #ec2626;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+
+
+  .services-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .services-section h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  
+  .services-section .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .services-section img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .services-section h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .services-section p {
+    color: #0c0b0b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .contact-button {
+    margin-top: 40px;
+  }
+  
+  .btn1 {
+    display: inline-block;
+    text-decoration: none;
+    color: #0c0b0b;
+    border: 1px solid #070707;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: #eb9b95;
+    cursor: pointer;
+  }
+  
+  .btn1:hover {    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+  } 
+
+
+
+  .mission-section {
+    background-image: url('img/4.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mission-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .mission-section h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .mission-section p {
+    color: #0c0b0b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 10px 20px;
+  }
+  
+  .mission-image {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+  }
+  
+
+
+
+  .estimate-section {
+    margin-top: 50px;
+  }
+  
+  .estimate-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .estimate-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .estimate-options label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #self-estimate-section {
+    margin-top: 20px;
+  }
+  
+  #self-estimate-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #series-select {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
