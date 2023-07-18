@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=devide-width, initial-scale=1.0">
+    <title> The New USA Impact Windows and Doors</title>  
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:wght@300;
+    400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+         <a href="index.html"><img src="img/Impactwindow.jpg"></a>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html"> HOME</a></li>
+                <li><a href="about.html"> ABOUT US</a></li>
+                <li><a href="services.html"> SERVICES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html"> CONTACT US</a></li>
+     
+             </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> Self Estimate</h1>
+       </section>
+    <! ---------estimates---------------->
+
+    <section class="measurements">
+        <h2>Measurements</h2>
+        <div class="measure-list">
+          <label>
+            <input type="checkbox" name="measure" value="measure1">
+            19 1/2
+          </label>
+          <label>
+            <input type="checkbox" name="measure" value="measure2">
+            26 1/4
+          </label>
+          <!-- Add more checkboxes for other measures -->
+          <label>
+            <input type="checkbox" name="measure" value="measure3">
+            36 3/4
+          </label>
+          <label>
+            <input type="checkbox" name="measure" value="measure4">
+            52 3/4
+          </label>
+        </div>
+        
+        <div id="measure1" class="table">
+            <table>
+                <thead>
+                  <tr>
+                    <th>Size</th>
+                    <th>Frame</th>
+                    <th>Glass</th>
+                    <th>Tint</th>
+                    <th>Price per Unit</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>19 1/2 x 25 3/4</td>
+                    <td>WH/BR</td>
+                    <td>9x16</td>
+                    <td>Gray/White</td>
+                    <td>Price</td>
+                    <td>
+                        <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>19 1/2 x 38 3/8</td>
+                    <td>WH/BR</td>
+                    <td>9x16</td>
+                    <td>Gray/Clear</td>
+                    <td>Price</td>
+                    <td>
+                        <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>19 1/2 x 50 3/8</td>
+                    <td>WH/BR</td>
+                    <td>9x16</td>
+                    <td>Gray/Clear</td>
+                    <td>Price</td>
+                    <td>
+                        <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                    </td>
+                  </tr>
+                  <td>19 1/2 x 62 3/4</td>
+                  <td>WH/BR</td>
+                  <td>9x16</td>
+                  <td>Gray/Clear</td>
+                  <td>Price</td>
+                  <td>
+                    <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                </td>
+                </tr>
+                  <!-- Add more rows as needed -->
+                </tbody>
+              </table>
+            </div>
+        <div id="measure2" class="table">
+            <table>
+                <thead>
+                  <tr>
+                    <th>Size</th>
+                    <th>Frame</th>
+                    <th>Glass</th>
+                    <th>Tint</th>
+                    <th>Price per Unit</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>25 3/4 x 26 1/4</td>
+                    <td>WH/BR</td>
+                    <td>9x16</td>
+                    <td>Gray/White</td>
+                    <td>Price</td>
+                    <td>
+                        <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>26 1/4 x 38 3/8</td>
+                    <td>WH/BR</td>
+                    <td>9x16</td>
+                    <td>Gray/Clear</td>
+                    <td>Price</td>
+                    <td>
+                        <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>26 1/4 x 50 3/8</td>
+                    <td>WH/BR</td>
+                    <td>9x16</td>
+                    <td>Gray/Clear</td>
+                    <td>Price</td>
+                    <td>
+                        <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                    </td>
+                  </tr>
+                  <td>26 1/4 x 62 3/4</td>
+                  <td>WH/BR</td>
+                  <td>9x16</td>
+                  <td>Gray/Clear</td>
+                  <td>Price</td>
+                  <td>
+                    <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                </td>
+                </tr>
+                  <!-- Add more rows as needed -->
+                </tbody>
+              </table>
+              </div>
+        <!-- Add more tables for other measures -->
+        <div id="measure3" class="table">
+            <table>
+                <thead>
+                  <tr>
+                    <th>Size</th>
+                    <th>Frame</th>
+                    <th>Glass</th>
+                    <th>Tint</th>
+                    <th>Price per Unit</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>36 3/4 x 38 3/8</td>
+                    <td>WH/BR</td>
+                    <td>9x16</td>
+                    <td>Gray/Clear</td>
+                    <td>Price</td>
+                    <td>
+                        <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>36 3/4 x 50 3/8</td>
+                    <td>WH/BR</td>
+                    <td>9x16</td>
+                    <td>Gray/Clear</td>
+                    <td>Price</td>
+                    <td>
+                        <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>36 3/4 x 62 3/8</td>
+                    <td>WH/BR</td>
+                    <td>9x16</td>
+                    <td>Gray/Clear</td>
+                    <td>Price</td>
+                    <td>
+                        <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                    </td>
+                  </tr>
+                  <td>36 3/4 x 75 3/8</td>
+                  <td>WH/BR</td>
+                  <td>9x16</td>
+                  <td>Gray/Clear</td>
+                  <td>Price</td>
+                  <td>
+                    <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                </td>
+                </tr>
+                  <!-- Add more rows as needed -->
+                </tbody>
+              </table>
+            </div>
+            <div id="measure4" class="table">
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Size</th>
+                        <th>Frame</th>
+                        <th>Glass</th>
+                        <th>Tint</th>
+                        <th>Price per Unit</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>52 3/4 x 25 3/4</td>
+                        <td>WH/BR</td>
+                        <td>9x16</td>
+                        <td>Gray/Clear</td>
+                        <td>Price</td>
+                        <td>
+                            <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>52 3/4 x 50 3/8</td>
+                        <td>WH/BR</td>
+                        <td>9x16</td>
+                        <td>Gray/Clear</td>
+                        <td>Price</td>
+                        <td>
+                            <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>36 3/4 x 62 3/8</td>
+                        <td>WH/BR</td>
+                        <td>9x16</td>
+                        <td>Gray/Clear</td>
+                        <td>Price</td>
+                        <td>
+                            <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                        </td>
+                      </tr>
+                      <td>36 3/4 x 75 3/8</td>
+                      <td>WH/BR</td>
+                      <td>9x16</td>
+                      <td>Gray/Clear</td>
+                      <td>Price</td>
+                      <td>
+                        <button class="add-to-cart-button" onclick="addToCart('19-25')">Add to Cart</button>
+                      </td>
+                    </tr>
+                      <!-- Add more rows as needed -->
+                    </tbody>
+                  </table>
+                </div>
+      </section>
+      
+
+
+      <!-------Footer --------->
+
+<section class="footer">
+    <nav>
+      <a href="index.html"><img src="img/Impactwindow.jpg"></a>
+      <div class="nav-links" id="navLinks">
+         <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html"> HOME</a></li>
+            <li><a href="#about"> ABOUT US</a></li>
+            <li><a href="#services"> SERVICES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html"> CONTACT US</a></li>
+            <li> <i class="fa fa-facebook social-icon"></i> </li>
+            <li> <i class="fa fa-instagram social-icon"></i> </li>
+            <li><i class="fa fa-twitter social-icon"></i></li> 
+            <li><i class="fa fa-linkedin social-icon"></i></li>
+          </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+    <p> Made with <i class="fa fa-heart-o"></i> by LM</p>
+  </section>
+  
+      
+           
+           
+           
+           <!-----------JavaScript for toggle menu ------------------------------------->
+        <script>
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+              navLinks.style.right = "0";
+                  }
+                  function hideMenu(){
+                      navLinks.style.right = "-200px";
+                  }     
+                  
+  function showTables() {
+  const checkboxes = document.querySelectorAll('input[name="measure"]:checked');
+  const tables = document.getElementsByClassName('table');
+  for (let i = 0; i < tables.length; i++) {
+    tables[i].style.display = 'none';
+  }
+  for (let i = 0; i < checkboxes.length; i++) {
+    const measureId = checkboxes[i].value;
+    const table = document.getElementById(measureId);
+    if (table) {
+      table.style.display = 'block';
+    }
+  }
+}
+
+const checkboxes = document.querySelectorAll('input[name="measure"]');
+for (let i = 0; i < checkboxes.length; i++) {
+  checkboxes[i].addEventListener('change', showTables);
+}
+
+
+function addToCart(size) {
+  var frame, glass, tint, price;
+
+  // Retrieve the frame, glass, tint, and price based on the selected size
+  switch (size) {
+    case '19-25':
+      frame = 'WH/BR';
+      glass = '9x16';
+      tint = 'Gray/White';
+      price = 'Price';
+      break;
+    case '19-38':
+      frame = 'WH/BR';
+      glass = '9x16';
+      tint = 'Gray/Clear';
+      price = 'Price';
+      break;
+    case '19-50':
+      frame = 'WH/BR';
+      glass = '9x16';
+      tint = 'Gray/Clear';
+      price = 'Price';
+      break;
+    case '19-62':
+      frame = 'WH/BR';
+      glass = '9x16';
+      tint = 'Gray/Clear';
+      price = 'Price';
+      break;
+    // Add more cases for other sizes
+    
+    default:
+      // Handle the default case
+      break;
+  }
+
+  // Create an object representing the item
+  var item = {
+    size: size,
+    frame: frame,
+    glass: glass,
+    tint: tint,
+    price: price
+  };
+
+  // Add the item to the shopping cart or perform other actions
+  // Example code to add the item to the shopping cart
+  shoppingCart.push(item);
+
+  // Perform any other necessary actions, such as updating the UI or displaying a confirmation message
+}
+
+        </script>   
+      </body>
+      </html>
